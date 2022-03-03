@@ -1,0 +1,224 @@
+@media (max-width: 1050px) {
+    .shopping-center {
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto 25px;
+    }
+
+    .shopping-center:nth-child(odd) {
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .header {
+        height: 52.99px;
+        margin-bottom: 14px;
+        padding: 0 9px;
+    }
+
+    .header-content {
+        padding-top: 9px;
+    }
+    
+    .header-logo {
+        width: 40px;
+    }
+
+    .header-logo img {
+        width: 37px;
+        height: 37px;
+    }
+
+    .header-logo h2 {
+        display: none;
+    }
+
+    .header-title {
+        display: block;
+    }
+
+    .header-link,
+    .user-name,
+    .admin-link,
+    .logout-btn {
+        display: none;
+    }
+
+    .header-menu {
+        display: block;
+    }
+
+    .main-content {
+        padding-bottom: 92.5px;
+    }
+
+    .main-content__nav {
+        display: none;
+    }
+
+    .main-content__title {
+        margin-bottom: 14px;
+        font-size: 25px;
+        line-height: 37px;
+    }
+
+    .shopping-centers {
+        padding: 0;
+    }
+
+    .shopping-center {
+        height: 143px;
+        margin-bottom: 14px;
+        padding: 9px 10px 9px 6px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .shopping-center:last-child {
+        margin-bottom: 0;
+    }
+    
+    .shopping-center__img {
+        min-width: 120px;
+        max-width: 120px;
+        height: 125px;
+        margin-right: 25px;
+    }
+    
+    .shopping-center__img::after {
+        height: 125px;
+    }
+    
+    .shopping-center__title {
+        height: 30px;
+        margin-bottom: 2px;
+        font-size: 14px;
+    }
+    
+    .shopping-center__descr {
+        height: 40px;
+        margin: 0 0 8px 3px;
+        font-size: 14px;
+    }
+    
+    .shopping-center__btn {
+        height: 32px;
+        margin-left: auto;
+        padding-right: 22px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    .shopping-center__btn img {
+        content: '';
+        position: absolute;
+        right: 18px;
+        top: 50%;
+        width: 6.35px;
+        height: 9.8px;
+        transform: translateY(-50%);
+    }
+
+    .footer {
+        height: 411px;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        margin-bottom: 51px;
+        padding: 25.5px 0 0 16px;
+    }
+    
+    .footer-content__link {
+        margin-bottom: 4px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .footer-content__descr {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    
+    .footer-content__links {
+        display: flex;
+        flex-direction: column;
+        padding-top: 74px;
+    }
+    
+    .footer-content__links a {
+        margin-bottom: 15px;
+    }
+    
+    .footer-content__links a:last-child {
+        margin-bottom: 0;
+    }
+    
+    .footer-content__social-links {
+        margin-left: 5px;
+        padding-top: 38px;
+    }
+    
+    .footer-copyright {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .modal {
+        padding: 0 20px;
+    }
+
+    .modal-content-floor,
+    .modal-content-menu {
+        width: 400px;
+    }
+
+    .main-content__time {
+        margin-bottom: 6px;
+        padding: 7px 6px 0;
+    }
+
+    .main-content__address {
+        margin-bottom: 15px;
+        padding: 0 6px;
+    }
+    
+    .products {
+        padding: 0 6px 3.5px;
+    }
+    
+    .product-item {
+        height: 62px;
+        margin-bottom: 10px;
+        padding: 7px 15px 7px 7px;
+        border: 0.7px solid rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+    }
+    
+    .product-item:last-child {
+        margin-bottom: 0;
+    }
+    
+    .product-item__img {
+        width: 50px;
+        height: 47.83px;
+        margin-right: 20px;
+    }
+    
+    .product-item__img::after {
+        height: 50px;
+    }
+    
+    .product-item__title {
+        margin-bottom: 4px;
+        font-size: 15px;
+    }
+    
+    .aviable-title {
+        font-size: 15px;
+    }
+    
+    .product-item__price {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="styles/style.css">  
+</head>
+<body>
+    <header>
+        <div class="header">
+            <a href="/">BMSTU FOOD</a>
+            <nav>
+                <ul class="nav">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Версия для слабовидящих</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="line">
+
+        </div>
+    </header>
+    <section class="main">
+        <div id="loginBubble">
+            <div class="zag">
+                <a>ВХОД В ЛИЧНЫЙ КАБИНЕТ</a>           
+            </div>
+            <div class="zag-small">
+                <a>Введите логин</a> 
+            </div>
+            <div class="input-container">
+                <input type="text" 
+                placeholder="Login">
+            </div>
+            <div class="zag-small">
+                <a>Введите пароль</a> 
+            </div>
+            <div class="input-container">
+                <input type="text" 
+                placeholder="Password">
+            </div>
+            <div id="loginBtn">
+                <a href="/">Войти</a>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section__info">
+            <a href="/">BMSTU FOOD</a>
+        </div>    
+        <div class="section__info">       
+            <p>Еда в МГТУ им. Баумана</p>
+        </div>
+        <div class="section__infcentr">
+            <a href="/">Обратная связь</a>
+            <a href="/">Выход</a>
+        </div>
+        <div class="section__infcentrlast">
+            <a href="/">BMSTU FOOD. All right reserved</a>
+        </div>           
+        <div class="section__social">
+            <img src="images/facebook.svg" alt="">      
+            <img src="images/insta.png" alt="">           
+            <img src="images/twitter.svg" alt="">
+        </div>
+    </section>
+</body>
+</html> 
